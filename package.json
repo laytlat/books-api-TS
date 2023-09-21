@@ -1,0 +1,26 @@
+{
+  "name": "books-api-TS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/laytlat/books-api-TS.git",
+  "author": "Alexandr Hrynenko <layt.lat@ukr.net>",
+  "license": "MIT",
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "reflect-metadata": "^0.1.13",
+    "routing-controllers": "^0.10.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "^3.0.1"
+  }
+}
