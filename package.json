@@ -4,8 +4,8 @@
   "repository": "https://github.com/laytlat/books-api-TS.git",
   "author": "Alexandr Hrynenko <layt.lat@ukr.net>",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node ./server.js",
-    "start:dev": "cross-env NODE_ENV=development nodemon ./server.js",
+    "start": "cross-env NODE_ENV=production node -r tsconfig-paths/register ./dist/main.js",
+    "start:dev": "cross-env NODE_ENV=development nodemon",
     "build": "tsc -p tsconfig.json"
   },
   "dependencies": {
@@ -21,12 +21,6 @@
   "devDependencies": {
     "@types/express": "^4.17.17",
     "@types/node": "^20.6.3",
-    "eslint": "^8.49.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.1.1",
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.2.0",
